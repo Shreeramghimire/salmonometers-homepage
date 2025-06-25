@@ -6,77 +6,63 @@
   <title>Salmonometers</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text-white font-sans">
+<body class="bg-gray-100 text-gray-900 font-sans">
 
   <!-- Section 1: Feeding the Future -->
-  <section class="relative h-screen overflow-hidden">
-    <video autoplay muted loop playsinline class="absolute w-full h-full object-cover">
+  <section class="relative h-screen">
+    <video autoplay muted loop class="absolute w-full h-full object-cover">
       <source src="Video1.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
     </video>
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-start text-left p-6">
-      <div class="text-white max-w-xl ml-6">
-        <h2 class="text-3xl font-bold mb-2">Feeding the Future</h2>
-        <p class="text-lg">
-          Aquaculture already provides over 50% of the world’s seafood — and is key to meeting the growing global protein demand.
-        </p>
-      </div>
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start px-10">
+      <h1 class="text-white text-4xl md:text-6xl font-bold max-w-xl">
+        Feeding the Future: Aquaculture's Role in Global Nutrition
+      </h1>
     </div>
   </section>
 
   <!-- Section 2: Norway Leads the Way -->
-  <section class="relative h-screen overflow-hidden">
-    <video autoplay muted loop playsinline class="absolute w-full h-full object-cover">
+  <section class="relative h-screen">
+    <video autoplay muted loop class="absolute w-full h-full object-cover">
       <source src="Video2.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
     </video>
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-end text-right p-6">
-      <div class="text-white max-w-xl mr-6">
-        <h2 class="text-3xl font-bold mb-2">Norway Leads the Way</h2>
-        <p class="text-lg">
-          With over 1.5 million tonnes of salmon produced annually, Norway is a global pioneer in sustainable, regulated aquaculture.
-        </p>
-      </div>
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-end px-10">
+      <h2 class="text-white text-3xl md:text-5xl font-bold max-w-xl text-right">
+        Norway Leads the Way in Sustainable Salmon Farming
+      </h2>
     </div>
   </section>
 
-  <!-- Section 3: Introducing Salmonometer Dashboard -->
-  <section class="relative h-screen overflow-hidden">
-    <video autoplay muted loop playsinline class="absolute w-full h-full object-cover">
+  <!-- Section 3: Introducing Salmonometer -->
+  <section class="relative h-screen">
+    <video autoplay muted loop class="absolute w-full h-full object-cover">
       <source src="Video3.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
     </video>
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-end justify-start text-left p-6 pb-20">
-      <div class="text-white max-w-xl ml-6">
-        <h2 class="text-3xl font-bold mb-2">Introducing Salmonometer Dashboard</h2>
-        <p class="text-lg">
-          Collect and visualize field data — from welfare and water quality to production and product traits — all in one platform.
-        </p>
-      </div>
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start px-10">
+      <h2 class="text-white text-3xl md:text-5xl font-bold max-w-xl">
+        Introducing Salmonometer Dashboard: A Tool for Learning & Insight
+      </h2>
     </div>
   </section>
 
-  <!-- Section 4: Learn by Doing -->
-  <section class="relative h-screen overflow-hidden">
-    <video autoplay muted loop playsinline class="absolute w-full h-full object-cover">
+  <!-- Section 4: Learning by Doing -->
+  <section class="relative h-screen">
+    <video autoplay muted loop class="absolute w-full h-full object-cover">
       <source src="Video4.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
     </video>
-    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center p-6">
-      <div class="text-white max-w-2xl">
-        <h2 class="text-3xl font-bold mb-2">Learn by Doing</h2>
-        <p class="text-lg">
-          The dashboard helps students simulate real-world farming tasks, collect data, analyze trends, and collaborate across institutions.
-        </p>
-      </div>
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-end px-10">
+      <h2 class="text-white text-3xl md:text-5xl font-bold max-w-xl text-right">
+        Learning by Doing: Empowering Students & Researchers Through Data
+      </h2>
     </div>
   </section>
 
-  <!-- Section 5: CTA -->
-  <section class="h-screen bg-blue-900 flex items-center justify-center text-center">
-    <div>
-      <h2 class="text-3xl font-bold mb-6">Ready to Try the Dashboard?</h2>
-      <a href="login.html" class="bg-white text-blue-900 font-semibold px-6 py-3 rounded shadow hover:bg-gray-200">
+  <!-- Section 5: Dashboard CTA with background image -->
+  <section class="h-screen bg-cover bg-center flex items-center justify-center text-center"
+           style="background-image: url('salmonometer image.png');">
+    <div class="bg-black bg-opacity-50 p-10 rounded-lg">
+      <h2 class="text-3xl font-bold mb-6 text-white">Salmonometer Dashboard</h2>
+      <a href="login.html"
+         class="bg-white text-blue-900 font-semibold px-6 py-3 rounded shadow hover:bg-gray-200">
         Go to Dashboard
       </a>
     </div>
