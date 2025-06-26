@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Salmonometers</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     body, html {
       margin: 0;
       padding: 0;
@@ -75,6 +79,22 @@
       background-color: rgba(0, 0, 0, 0.6);
     }
 
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #0072ce;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #005fa3;
+    }
+
     @media (max-width: 768px) {
       .content {
         font-size: 1.2rem;
@@ -140,10 +160,11 @@
   </section>
 
   <!-- Final CTA Section -->
-  <section class="light">
+  <section class="light" id="dashboard">
     <div class="cta">
       <h2>Salmonometer Dashboard</h2>
       <p>Visualize fish welfare, production parameters, water quality, and product quality—learning through data and collaboration.</p>
+      <a href="#dashboard">Go to Dashboard</a>
     </div>
   </section>
 
