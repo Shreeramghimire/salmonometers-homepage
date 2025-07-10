@@ -17,6 +17,6 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
   if (error) {
     errorBox.textContent = 'Login failed. Check your credentials.';
   } else {
-    window.location.href = 'https://salmon-farm-dashboard-29e8vfxjkl67v9wlzhcnbc.streamlit.app/';
+    window.location.href = 'https://salmonometer-dashboard-s6qzpkhyhnrwbqheyj4iwk.streamlit.app/';
   }
 });
